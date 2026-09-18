@@ -70,7 +70,7 @@
   border: 1px solid #ffffff;
   background-color: transparent;
   font-size: 12px;
-  line-height: 2;
+  line-height: 1.17; /* Було 2, має бути 1.17 */
   letter-spacing: 0.04em;
   padding-left: 16px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -85,7 +85,7 @@
 }
 
 .footer-subscribe-input:focus {
-  border-color: #4d5ae5;
+  border-color: #31d0aa; 
 }
 
 .footer-subscribe-btn {
@@ -109,7 +109,7 @@
 
 .footer-subscribe-btn:hover,
 .footer-subscribe-btn:focus {
-  background-color: #404bbf;
+  background-color: #31d0aa; 
 }
 
 .footer-subscribe-icon {
